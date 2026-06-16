@@ -479,6 +479,8 @@ def hd(title, desc, canon, schemas=None, og_type="website"):
     return f"""<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title}</title>
 <meta name="description" content="{desc}">
+<meta name="google-site-verification" content="eWVDN3vbam9nnaZQu7wAQKyfmJJdM7zjI80l4DGeUrQ">
+<meta name="msvalidate.01" content="574044E39556B8B8DAAF1D1F233C87B0">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <link rel="canonical" href="{canon}">
 <meta property="og:type" content="{og_type}">
